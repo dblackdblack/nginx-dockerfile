@@ -25,6 +25,6 @@ EXPOSE 80 443
 
 CMD ["nginx", "-g", "daemon off;"]
 
-ENV version=11
+ENV version=12
 
 RUN echo "version=${version}" >> /usr/share/nginx/html/index.html

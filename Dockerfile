@@ -1,5 +1,5 @@
 FROM nginx
 
-ENV version=15
+ENV version=16
 
 RUN echo "version=${version}" >> /usr/share/nginx/html/index.html
